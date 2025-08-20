@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Inventory</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body id="inventory-page">
+    <div class="admin-header">
+        <h1>E-Commerce Admin Panel</h1>
+        <a href="../index.html" class="btn">View Catalog</a>
+    </div>
+
+    <div class="form-container">
+        <section class="product-form">
+            <h3>Add / Edit Product</h3>
+            <select id="product-category" name="clothes" required>
+                <option disabled selected>Select a Category</option>
+                <option value="Shirts">Shirts</option>
+                <option value="T-shirts">T-shirts</option>
+                <option value="Pants">Pants</option>
+                <option value="Jeans">Jeans</option>
+            </select><br>
+            <input type="text" id="product-name" placeholder="Product Name" required><br>
+            <input type="text" id="product-image" placeholder="Image URL"><br>
+            <textarea type="message-box" id="product-description" rows="5" cols="43" placeholder="Description of the Product" required></textarea><br>
+            <input type="number" id="product-quantity" placeholder="Quantity" required><br>
+            <input type="number" id="product-price" placeholder="Price (₹)" required><br>
+            <button id="save-product-btn">Save</button>
+        </section>
+    </div>
+
+    <table class="product-table">
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="product-table-body"></tbody>
+    </table>
+
+    <script src="scriptUI.js"></script>
+</body>
+</html>

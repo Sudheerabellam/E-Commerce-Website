@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="catalog-page">
+    <header>
+        <h1>E-Commerce Store</h1>
+        <div class="cart-icon">
+            <a href="cart.html">🛒 <span id="cart-count">0</span></a>
+        </div>
+        <div class="admin-access">
+            <button id="admin-btn">Admin</button>
+        </div>
+    </header>
+
+    <div id="admin-auth" style="display:none;">
+        <input type="password" id="admin-code" placeholder="Enter Admin Code">
+        <button id="submit-code">Submit</button>
+    </div>
+
+    <div class="product-grid" id="product-container">
+        <!-- Products will be loaded here by JavaScript -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

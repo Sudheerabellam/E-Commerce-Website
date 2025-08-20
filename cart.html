@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="cart-page">
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <a href="index.html" class="btn">Continue Shopping</a>
+    </header>
+
+    <div class="cart-container">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be loaded here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td id="cart-total">₹0</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- Add this after your cart table -->
+<div id="payment-form" style="display:none;">
+    <h3>Payment Details</h3>
+    <div class="form-group">
+        <label>Card Number</label>
+        <input type="text" placeholder="1234 5678 9012 3456">
+    </div>
+    <div class="form-group">
+        <label>Expiry Date</label>
+        <input type="text" placeholder="MM/YY">
+    </div>
+    <div class="form-group">
+        <label>CVV</label>
+        <input type="text" placeholder="123">
+    </div>
+</div>
+
+<div class="cart-actions">
+    <button id="proceed-btn">Proceed to Payment</button>
+    <button id="payment-btn" style="display:none;">Make Payment</button>
+</div>
+
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

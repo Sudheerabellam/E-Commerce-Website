@@ -1,0 +1,127 @@
+{
+  "products": [
+    {
+      "id": "a407",
+      "name": "Louis Philippe",
+      "category": "Shirts",
+      "description": "Louis Philippe Men's Easy to Care Cotton Slim fit Solid Casual Shirt with Natural Stretch",
+      "image": "placeholder.jpg",
+      "quantity": 632,
+      "price": 1279
+    },
+    {
+      "id": "dc54",
+      "name": "Peter England",
+      "category": "Shirts",
+      "description": "Peter England Slim Fit Checkered Shirt for Men – Full Sleeves | Cotton | Smart & Stylish",
+      "image": "placeholder.jpg",
+      "quantity": 345,
+      "price": 989
+    },
+    {
+      "id": "ec0f",
+      "name": "Wildcraft Stylish",
+      "category": "T-shirts",
+      "description": "Wildcraft Stylish Men Cotton Indigo Crewneck T-shirt | Half Sleeve Regular Fit T-shirt for Mens",
+      "image": "placeholder.jpg",
+      "quantity": 532,
+      "price": 1120
+    },
+    {
+      "id": "6b16",
+      "name": "Allen Solly",
+      "category": "T-shirts",
+      "description": "Allen Solly Men's Cotton Regular Fit Polo T-Shirt",
+      "image": "placeholder.jpg",
+      "quantity": 764,
+      "price": 799
+    },
+    {
+      "id": "93c8",
+      "name": "Jockey",
+      "category": "Pants",
+      "description": "Jockey AM44 Men's Super Combed Cotton Rich Pique Interlock Fabric Slim Fit Mid Rise Trackpants with Side and Back Pockets",
+      "image": "placeholder.jpg",
+      "quantity": 233,
+      "price": 1749
+    },
+    {
+      "id": "fd7e",
+      "name": "Louis Philippe",
+      "category": "Pants",
+      "description": "Louis Philippe Men's Mid Rise Overdyed Baggy Fit Pleated Chinos with Stretch",
+      "image": "placeholder.jpg",
+      "quantity": 178,
+      "price": 1556
+    },
+    {
+      "id": "d1bb",
+      "name": "GRECIILOOKS",
+      "category": "Jeans",
+      "description": "GRECIILOOKS Men High Rise Stylish Jeans | Jeans Regular Fit | Non Stretchable Jeans",
+      "image": "placeholder.jpg",
+      "quantity": 764,
+      "price": 759
+    },
+    {
+      "id": "2277",
+      "name": "AFT Torpedo",
+      "category": "Jeans",
+      "description": "AFT Torpedo Men Baggy Denim Jeans in Pure 100% Cotton Denim || Stretchable (Jet Black) and Stretchable (Colored) Jeans || Unisex Designs||Jeans||",
+      "image": "placeholder.jpg",
+      "quantity": 541,
+      "price": 599
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "b003",
+      "productId": "ec0f",
+      "name": "Wildcraft Stylish",
+      "quantity": 1,
+      "price": 1120,
+      "date": "2025-08-20T07:26:59.625Z"
+    },
+    {
+      "id": "b6ec",
+      "productId": "fd7e",
+      "name": "Louis Philippe",
+      "quantity": 1,
+      "price": 1556,
+      "date": "2025-08-20T07:26:59.647Z"
+    },
+    {
+      "id": "e98b",
+      "productId": "6b16",
+      "name": "Allen Solly",
+      "quantity": 1,
+      "price": 799,
+      "date": "2025-08-20T07:26:59.665Z"
+    },
+    {
+      "id": "154f",
+      "productId": "ec0f",
+      "name": "Wildcraft Stylish",
+      "quantity": 1,
+      "price": 1120,
+      "date": "2025-08-20T08:43:49.429Z"
+    },
+    {
+      "id": "5753",
+      "productId": "d1bb",
+      "name": "GRECIILOOKS",
+      "quantity": 1,
+      "price": 759,
+      "date": "2025-08-20T08:43:49.487Z"
+    },
+    {
+      "id": "1fc4",
+      "productId": "ec0f",
+      "name": "Wildcraft Stylish",
+      "quantity": 1,
+      "price": 1120,
+      "date": "2025-08-20T09:15:18.839Z"
+    }
+  ]
+}
